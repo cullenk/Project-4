@@ -5,7 +5,23 @@
 // major grid styles have been added here for you
 // but additional styling may be needed
 // **********************************************
-
+.container
+.grid__row
+.grid__col--1
+.grid__col--2
+.grid__col--3
+.grid__col--4
+.grid__col--5
+.grid__col--6
+.grid__col--7
+.grid__col--8
+.grid__col--9
+.grid__col--10
+.grid__col--11
+.grid__col--12
+.card
+.centered
+.theme__colors
 
 // grid base class
 .grid {
@@ -33,7 +49,7 @@
       // selector would be .grid__col--1
       &--#{$i} {
 
-        // base styles applied to all grid columns 
+        // base styles applied to all grid columns
         // NOTE: could be converted to a placeholder, along with margin
         // from the  media query
         margin-top: 10px;
