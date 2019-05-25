@@ -1,0 +1,25 @@
+
+.nav__item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav li {
+  line-height: 45px;
+}
+
+.nav {
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.nav__item:hover {
+  color: white;
+  background-color: teal;
+  border-radius: 5px;
+}
+
+.nav__item a:hover {
+  color: white;
+}

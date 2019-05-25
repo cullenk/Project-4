@@ -1,1 +1,15 @@
 
+.form__label--hidden {
+  display: none;
+}
+
+.form__input {
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  display: block;
+  border: none;
+  border-bottom: 4px solid teal;
+  width: 90%;
+}
