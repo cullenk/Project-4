@@ -6,20 +6,6 @@
 // but additional styling may be needed
 // **********************************************
 
-.grid__col--3 {
-  text-align: center;
-}
-
-.grid__col--12 {
-  margin-bottom: 40px;
-}
-
-.grid__col--6 {
-  text-align: center;
-  box-sizing: border-box;
-  width: 100%;
-  margin-bottom: 60px;
-}
 
 // grid base class
 .grid {
@@ -30,7 +16,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    box-sizing: border-box;
 
     // NOTE: replace with media query mixin if aiming for exceeds
     @media (min-width: 768px) {

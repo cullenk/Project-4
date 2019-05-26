@@ -355,31 +355,11 @@ p {
   margin-bottom: 40px;
 }
 
-form {
-  text-align: center;
-}
-
-.grid__col--3 {
-  text-align: center;
-}
-
-.grid__col--12 {
-  margin-bottom: 40px;
-}
-
-.grid__col--6 {
-  text-align: center;
-  box-sizing: border-box;
-  width: 100%;
-  margin-bottom: 60px;
-}
-
 .grid__row {
   padding: 1em 10px;
   display: flex;
   flex-direction: column;
   width: 100%;
-  box-sizing: border-box;
 }
 @media (min-width: 768px) {
   .grid__row {
@@ -564,6 +544,10 @@ form {
   width: 90%;
 }
 
+.form {
+  text-align: center;
+}
+
 .nav__item a {
   text-decoration: none;
   color: inherit;
@@ -617,10 +601,6 @@ form {
 .headline--secondary {
   text-align: left;
   margin-bottom: 20px;
-}
-
-.headline--secondary {
-  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
