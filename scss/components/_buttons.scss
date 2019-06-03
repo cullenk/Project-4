@@ -2,3 +2,7 @@
 [class^="btn"] {
   @include btn;
 }
+
+.btn {
+  @include theme($button-colors);
+}

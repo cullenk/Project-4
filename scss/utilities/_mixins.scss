@@ -9,15 +9,12 @@
   margin-bottom: 15px;
 }
 
+// Colors //
 
-@each $theme, $color in $button-colors {
-  .btn--#{$theme} {
+@mixin theme($map) {
+@each $theme, $color in $map {
+  &--#{$theme} {
     background-color: $color;
   }
-}
-
-@each $theme, $color in $grid-colors {
-  .grid__col--#{$theme} {
-    background-color: $color;
-  }
+ }
 }
