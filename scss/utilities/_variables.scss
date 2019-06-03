@@ -8,10 +8,9 @@ $emerald        : #5ece7f;
 $sunglo         : #e67478;
 $coral          : #ff784f;
 $purple-majesty : #9279c3;
-$scooter        : #39add1;
 
 
-// Maps //
+// Map Colors //
 
 $button-colors: (
   'default' : $fountain-blue,
@@ -21,6 +20,15 @@ $button-colors: (
   'info' : $purple-majesty
 );
 
+$grid-colors: (
+    '12': #80E8D1,
+    '8' : #FD9F85,
+    '7' : #EC9FA3,
+    '6' : #3FABCA,
+    '5' : #88D9A0,
+    '4' : #7EE6FD,
+    '3' : #DEB2EE,
+    );
 
 
 // FONTS //
