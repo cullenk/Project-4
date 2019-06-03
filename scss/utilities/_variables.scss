@@ -1,0 +1,44 @@
+
+// COLORS //
+$color-primary: #6DE2FC;
+$color-secondary: #58E1C1;
+
+$fountain-blue  : #52bab3;
+$emerald        : #5ece7f;
+$sunglo         : #e67478;
+$coral          : #ff784f;
+$purple-majesty : #9279c3;
+$scooter        : #39add1;
+
+$12 : #3FBFB8;
+$6 : #2B8AD3;
+$4 : #6FDEEF;
+$3 : #DEB8F3;
+$5 : #69D2A1;
+$7 : #DF897A;
+$8 : #F2965D;
+
+// Maps //
+
+$button-colors: (
+  'default' : $fountain-blue,
+  'success' : $emerald,
+  'error' : $sunglo,
+  'warning' : $coral,
+  'info' : $purple-majesty
+);
+
+$grid-colors: (
+  '12' : $12,
+  '6' : $6,
+  '4' : $4,
+  '3' : $3,
+  '5' : $5,
+  '7' : $7,
+  '8' : $8
+);
+
+
+// FONTS //
+$font-primary: 'Helvetica Neue' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+$font-color: #7A7A7A;

@@ -1,0 +1,23 @@
+
+@mixin btn {
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+
+@each $theme, $color in $button-colors {
+  .btn--#{$theme} {
+    background-color: $color;
+  }
+}
+
+@each $theme, $color in $grid-colors {
+  .grid__col--#{$theme} {
+    background-color: $color;
+  }
+}

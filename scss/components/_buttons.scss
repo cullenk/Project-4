@@ -1,36 +1,4 @@
 
-.btn--default,
-.btn--success,
-.btn--error,
-.btn--warning,
-.btn--info {
-  text-transform: uppercase;
-  width: 100%;
-  display: block;
-  padding: 10px;
-  border-radius: 5px;
-  color: white;
-  margin-bottom: 15px;
-}
-
-.btn--default {
-  background: lightblue;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-.btn--success {
-  background-color: green;
-}
-
-.btn--error {
-  background-color: red;
-}
-
-.btn--warning {
-  background-color: orange;
-}
-
-.btn--info {
-  background-color: purple;
+[class^="btn"] {
+  @include btn;
 }

@@ -8,16 +8,16 @@
 .headline--primary {
   padding-left: 20px;
   padding-bottom: 20px;
-  color: teal;
+  color: $color-secondary;
 }
 
 .link {
   text-decoration: none;
-  color: lightblue;
+  color: $color-primary;
 }
 
 .blockquote {
-  border-left: 8px solid teal;
+  border-left: 8px solid $color-secondary;
   padding-left: 20px;
   font-style: italic;
   font-size: 18px;

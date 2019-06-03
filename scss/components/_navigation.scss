@@ -1,25 +1,27 @@
 
-.nav__item a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.nav li {
-  line-height: 45px;
-}
-
 .nav {
   margin-top: 30px;
   margin-bottom: 40px;
   text-align: center;
+    li {
+      line-height: 45px;
+  }
 }
 
-.nav__item:hover {
-  color: white;
-  background-color: teal;
-  border-radius: 5px;
-}
+.nav__item {
+  list-style: none;
 
-.nav__item a:hover {
-  color: white;
+  a {
+    color: $font-color;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: $color-secondary;
+    border-radius: 5px;
+  }
+
+  &:hover a {
+    color: white;
+  }
 }

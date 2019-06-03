@@ -1,16 +1,19 @@
 
-.img--logo {
-  display: block;
-  margin: 10px auto;
+.img{
+  &--logo {
+     display: block;
+     margin: 10px auto;
 }
 
-.img--frame {
-  border: 1px double grey;
-  padding: 10px;
-  width: 100%;
-  box-sizing: border-box;
+  &--frame {
+     border: 1px double grey;
+     padding: 10px;
+     width: 100%;
+     box-sizing: border-box;
 }
- .img--avatar {
-   display: block;
-   margin: 20px auto;
+
+  &--avatar {
+     display: block;
+     margin: 20px auto;
  }
+}
