@@ -9,7 +9,7 @@
   margin-bottom: 15px;
 }
 
-// Colors //
+// Button Colors //
 
 @mixin theme($map) {
 @each $theme, $color in $map {
