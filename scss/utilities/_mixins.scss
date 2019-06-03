@@ -1,4 +1,6 @@
 
+// Button Styling //
+
 @mixin btn {
   text-transform: uppercase;
   width: 100%;
@@ -9,11 +11,15 @@
   margin-bottom: 15px;
 }
 
-// Button Colors //
+// Grid Styling//
+
+
+
+// Button and Grid Colors //
 
 @mixin theme($map) {
 @each $theme, $color in $map {
-  &--#{$theme} .theme__colors {
+  &--#{$theme}.theme__colors {
     background-color: $color;
   }
  }

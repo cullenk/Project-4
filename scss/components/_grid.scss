@@ -27,6 +27,7 @@
   &__col {
 
     @include theme($grid-colors);
+
     // create grid columns dynamically
     // loop through each column size
     @for $i from 1 through 12 {
@@ -57,6 +58,9 @@
 
 // targets all elements with classes that begin with grid__col
 [class^=grid__col] {
+
+  @include btn;
+  
   // grid__col + grid__col, targets two sibling columns
   & + & {
 
