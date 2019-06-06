@@ -6,6 +6,11 @@
     li {
       line-height: 45px;
   }
+  @include desktop($desktop-width){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 .nav__item {

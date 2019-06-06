@@ -11,8 +11,12 @@
   margin-bottom: 15px;
 }
 
-// Grid Styling//
+// Grid Styling //
 
+@mixin grid {
+  padding: 8px;
+  border-radius: 5px;
+}
 
 
 // Button and Grid Colors //
@@ -23,4 +27,15 @@
     background-color: $color;
   }
  }
+}
+
+// Flex Box //
+
+
+// Media Queries //
+
+@mixin desktop($desktop-width) {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
 }

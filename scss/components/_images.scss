@@ -3,6 +3,9 @@
   &--logo {
      display: block;
      margin: 10px auto;
+     @include desktop($desktop-width) {
+       margin-left: auto;
+     }
 }
 
   &--frame {

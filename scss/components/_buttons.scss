@@ -5,4 +5,7 @@
 
 .btn {
   @include theme($button-colors);
+  @include desktop($desktop-width) {
+    
+  }
 }
