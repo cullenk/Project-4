@@ -5,7 +5,13 @@
 
 .btn {
   @include theme($button-colors);
+  }
+
+.btn--success,
+.btn--error,
+.btn--warning,
+.btn--info {
   @include desktop($desktop-width) {
-    
+    margin-left: 20px;
   }
 }

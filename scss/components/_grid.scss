@@ -6,7 +6,6 @@
 // but additional styling may be needed
 // **********************************************
 
-
 // grid base class
 .grid {
 
@@ -20,6 +19,7 @@
     // NOTE: replace with media query mixin if aiming for exceeds
     @include desktop($desktop-width) {
       flex-direction: row;
+      justify-content: center;
   }
 }
 
@@ -43,8 +43,7 @@
         flex-basis: 100%;
 
         // NOTE: replace with media query mixin if aiming for exceeds
-        @include desktop($desktop-width) {
-          
+
 
           // base stlyes applied to all grid columns
           margin-top: 0;
@@ -54,11 +53,11 @@
         }
       }
     }
-  }
 }
 
 // targets all elements with classes that begin with grid__col
 [class^=grid__col] {
+
 
   @include grid;
 
@@ -71,5 +70,14 @@
       // add grid gutter
       margin-left: 10px;
     }
+  }
+}
+
+.grid__col--12,
+.centered,
+.theme__colors {
+    @include desktop($desktop-width) {
+    display: flex;
+    justify-content: center;
   }
 }

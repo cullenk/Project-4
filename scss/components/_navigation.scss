@@ -9,12 +9,17 @@
   @include desktop($desktop-width){
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    float: right;
   }
 }
 
 .nav__item {
   list-style: none;
+
+  @include desktop($desktop-width){
+    width: 100px;
+    justify-content: space-between;
+  }
 
   a {
     color: $font-color;
