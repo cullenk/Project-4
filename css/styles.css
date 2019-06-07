@@ -619,6 +619,7 @@ p {
     display: flex;
     flex-direction: row;
     float: right;
+    margin-right: 80px;
   }
 }
 
@@ -651,6 +652,11 @@ p {
   font-size: 16px;
   line-height: 25px;
   color: #7A7A7A;
+}
+@media (min-width: 769px) {
+  .container {
+    font-size: 20px;
+  }
 }
 
 .headline--primary {
