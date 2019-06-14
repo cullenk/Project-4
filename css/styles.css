@@ -1,11 +1,11 @@
 /* Error: Top-level selectors may not contain the parent selector "&".
  *    ,
- * 19 |   &--avatar {
- *    |   ^^^^^^^^^^
+ * 28 |   &__col {
+ *    |   ^^^^^^^
  *    '
- *   scss/components/_images.scss 19:3  @import
- *   scss/components/_index.scss 12:9   @import
- *   scss/styles.scss 14:9              root stylesheet */
+ *   scss/components/_grid.scss 28:3  @import
+ *   scss/components/_index.scss 7:9  @import
+ *   scss/styles.scss 14:9            root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -15,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: Top-level selectors may not contain the parent selector "&".\a    \2577 \a 19 \2502    &--avatar {\a    \2502    ^^^^^^^^^^\a    \2575 \a   scss/components/_images.scss 19:3  @import\a   scss/components/_index.scss 12:9   @import\a   scss/styles.scss 14:9              root stylesheet';
+  content: 'Error: Top-level selectors may not contain the parent selector "&".\a    \2577 \a 28 \2502    &__col {\a    \2502    ^^^^^^^\a    \2575 \a   scss/components/_grid.scss 28:3  @import\a   scss/components/_index.scss 7:9  @import\a   scss/styles.scss 14:9            root stylesheet';
 }

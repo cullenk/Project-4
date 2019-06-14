@@ -5,6 +5,7 @@
   text-align: center;
     li {
       line-height: 45px;
+      padding: 8px;
   }
   @include desktop($desktop-width){
     display: flex;
