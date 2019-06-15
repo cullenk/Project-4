@@ -2,16 +2,15 @@
 .nav {
   margin-top: 30px;
   margin-bottom: 40px;
-  text-align: center;
+  text-align: right;
     li {
       line-height: 45px;
-      padding: 8px;
+      padding: 5px 10px;
   }
   @include desktop($desktop-width){
     display: flex;
     flex-direction: row;
-    float: right;
-    margin-right: 80px;
+    margin-right: 120px;
   }
 }
 
@@ -19,8 +18,7 @@
   list-style: none;
 
   @include desktop($desktop-width){
-    width: 100px;
-    justify-content: space-between;
+    margin: 0 20px;
   }
 
   a {

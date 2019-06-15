@@ -16,16 +16,16 @@
     flex-direction: column;
 
 
+
     // NOTE: replace with media query mixin if aiming for exceeds
     @include desktop($desktop-width) {
-      flex-direction: row;
-      justify-content: center;
-      margin: auto;
+      @include flexy;
+      // margin: auto;
   }
+ }
 }
-
   // .grid__col
-  &__col {
+  .grid__col {
 
     @include theme($grid-colors);
 
@@ -56,13 +56,14 @@
       }
     }
   }
-}
+
 
 // targets all elements with classes that begin with grid__col
 [class^=grid__col] {
 
 
   @include grid;
+
 
   // grid__col + grid__col, targets two sibling columns
   & + & {
@@ -82,7 +83,11 @@
 .centered,
 .theme__colors {
     @include desktop($desktop-width) {
-    display: flex;
-    justify-content: center;
+    @include flexy;
   }
+}
+
+.grid__col--6 {
+  display: flex;
+  align-items: center;
 }
