@@ -1,3 +1,14 @@
+.btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -530,30 +541,19 @@ p {
   align-items: center;
 }
 
-[class^=btn] {
-  text-transform: uppercase;
-  width: 100%;
-  display: block;
-  padding: 10px;
-  border-radius: 5px;
-  color: white;
-  margin-bottom: 15px;
-  cursor: pointer;
-}
-
-.btn--default.theme__colors {
+.btn--default {
   background-color: #7EE6FD;
 }
-.btn--success.theme__colors {
+.btn--success {
   background-color: #5ece7f;
 }
-.btn--error.theme__colors {
+.btn--error {
   background-color: #e67478;
 }
-.btn--warning.theme__colors {
+.btn--warning {
   background-color: #ff784f;
 }
-.btn--info.theme__colors {
+.btn--info {
   background-color: #9279c3;
 }
 

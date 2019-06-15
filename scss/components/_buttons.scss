@@ -1,11 +1,29 @@
 
-[class^="btn"] {
-  @include btn;
-}
 
 .btn {
-  @include theme($button-colors);
+
+  &--default {
+    @extend %btn;
+    background-color: $fountain-blue;
   }
+  &--success {
+    @extend %btn;
+    background-color: $emerald;
+  }
+  &--error {
+    @extend %btn;
+    background-color: $sunglo;
+  }
+  &--warning {
+    @extend %btn;
+    background-color: $coral;
+  }
+  &--info {
+    @extend %btn;
+    background-color: $purple-majesty;
+  }
+
+ }
 
 .btn--success,
 .btn--error,
