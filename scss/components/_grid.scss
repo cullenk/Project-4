@@ -20,7 +20,6 @@
     // NOTE: replace with media query mixin if aiming for exceeds
     @include desktop($desktop-width) {
       @include flexy;
-      // margin: auto;
   }
  }
 }
@@ -73,8 +72,6 @@
       text-align: center;
       // add grid gutter
       margin-left: 10px;
-
-
     }
   }
 }
@@ -86,6 +83,8 @@
     @include flexy;
   }
 }
+
+// Vertically align the images
 
 .grid__col--6 {
   display: flex;
