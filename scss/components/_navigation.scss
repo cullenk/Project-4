@@ -1,8 +1,9 @@
 
 .nav {
+  display: block;
   margin-top: 30px;
   margin-bottom: 40px;
-  text-align: right;
+  text-align: center;
     li {
       line-height: 45px;
       padding: 5px 10px;
@@ -11,6 +12,7 @@
     display: flex;
     flex-direction: row;
     margin-right: 120px;
+    text-align: right;
   }
 }
 
