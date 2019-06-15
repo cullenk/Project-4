@@ -24,7 +24,7 @@
 
   a {
     color: $font-color;
-    text-decoration: none;
+    @extend %text-deco;
   }
 
   &:hover {
