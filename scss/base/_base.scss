@@ -1,4 +1,11 @@
 
+* {
+  font-family: $font-primary;
+  font-size: 16px;
+  line-height: 25px;
+  color: $font-color;
+}
+
 ul {
   display: flex;
   justify-content: flex-end;
@@ -9,4 +16,9 @@ ul {
 p {
   margin-bottom: 40px;
   color: $font-primary;
+}
+
+a {
+  color: $font-color;
+  @extend %text-deco;
 }
